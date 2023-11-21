@@ -1,7 +1,12 @@
 import React from 'react';
 
+import './css/index.css';
+import Index from './components';
+
 function App() {
-  return <div>Hello, React!</div>;
+  return <>
+  <Index/>
+  </>;
 }
 
 export default App;
