@@ -64,7 +64,7 @@ a:not([class]) {
 img,
 picture {
   /* max-width: 100%; */
-  display: block;
+  /* display: block; */
 }
 
 /* Inherit fonts for inputs and buttons */
@@ -148,7 +148,6 @@ h3 {
 .index-picture-grid {
   display: grid;
   gap: 0;
-
   color: rgb(20, 20, 189);
   padding-block: 2rem;
   width: min(95%, 70rem);
