@@ -47,7 +47,7 @@ const Menu = () => {
           </div>
           <div className="overlay">
             <h2>Menu</h2>
-            <p className="section-tex">View our seasonal changig menu here</p>
+
             <a
               href="media/28.10.23_Blinker_Menu_November23.pdf"
               target="_blank"
