@@ -9,12 +9,22 @@
   justify-content: center;
   text-align: center;
   width: 100%;
-  background-color: 003b73;
 }
+
 @media screen and (max-width: 763px) {
   .booking-form-grid {
-    padding: 2rem 4rem 2rem 4rem;
+    padding: 2rem 2rem 2rem 2rem;
     grid-template-columns: 1fr;
+  }
+
+  .booking-form-elemnt:first-child {
+    order: 2;
+  }
+  .booking-form-elemnt:last-child {
+    order: 1;
+  }
+  .section-text {
+    padding: 0;
   }
 }
 

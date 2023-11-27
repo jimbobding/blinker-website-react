@@ -1,15 +1,17 @@
 import React from "react";
 
 import "./css/reset.css";
-import "./css/index.css";
 import "./css/nav.css";
+import "./css/index.css";
 import "./css/about.css";
+import "./css/menu.css";
 import "./css/bookingForm.css";
 
 import Nav from "./components/Nav";
 import About from "./components/About";
 import BookingForm from "./components/BookingForm";
 import Index from "./components/Index";
+import Menu from "./components/Menu";
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
       <Nav />
       <About />
       <Index />
+      <Menu />
       <BookingForm />
     </>
   );
