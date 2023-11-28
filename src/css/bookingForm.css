@@ -17,10 +17,10 @@
     grid-template-columns: 1fr;
   }
 
-  .booking-form-elemnt:first-child {
+  .booking-form-element:first-child {
     order: 2;
   }
-  .booking-form-elemnt:last-child {
+  .booking-form-element:last-child {
     order: 1;
   }
   .section-text {
