@@ -10,8 +10,9 @@ import "./css/bookingForm.css";
 import Nav from "./components/Nav";
 import About from "./components/About";
 import BookingForm from "./components/BookingForm";
-import Index from "./components/Index";
+
 import Menu from "./components/Menu";
+import Index from "./components";
 
 function App() {
   return (
