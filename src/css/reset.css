@@ -1,0 +1,19 @@
+body {
+  background-color: #e6e4d8;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.section-text {
+  padding: 2rem 6rem 2rem 6rem;
+}
+
+.text-center {
+  text-align: center;
+}

@@ -1,3 +1,4 @@
+
 module.exports = {
   root: true,
   env: { browser: true, es2020: true },
@@ -5,6 +6,7 @@ module.exports = {
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:react-hooks/recommended',
+    'prettier', // Add the Prettier configuration last
   ],
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   parser: '@typescript-eslint/parser',
@@ -19,4 +21,4 @@ module.exports = {
   rules: {
     'prettier/prettier': 'error',
   },
-}
+};
