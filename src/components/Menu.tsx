@@ -52,7 +52,7 @@ const Menu = () => {
               href="media/28.10.23_Blinker_Menu_November23.pdf"
               target="_blank"
               type="button"
-              className="menu-btn  text-center"
+              className="section-btn "
             >
               Menu
             </a>

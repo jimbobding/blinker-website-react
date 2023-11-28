@@ -2,7 +2,7 @@ const BookingForm = () => {
   return (
     <div>
       <div className="booking-form-grid">
-        <div className="booking-form-elemnt">
+        <div className="booking-form-element">
           {" "}
           <div className="booking-form">
             <div className="text-center bottom-logo">
@@ -76,7 +76,7 @@ const BookingForm = () => {
             </form>
           </div>
         </div>
-        <div className="booking-form-elemnt">
+        <div className="booking-form-element">
           {" "}
           <h2 className="seating-text-header">
             WE OPERATE AS A WALK IN VENUE
