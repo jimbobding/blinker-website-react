@@ -11,7 +11,7 @@
   width: 100%;
 }
 
-@media screen and (max-width: 763px) {
+@media screen and (max-width: 850px) {
   .booking-form-grid {
     padding: 2rem 2rem 2rem 2rem;
     grid-template-columns: 1fr;

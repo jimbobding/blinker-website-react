@@ -11,7 +11,7 @@ h2 {
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .section-text {
@@ -20,6 +20,9 @@ p {
 
 .text-center {
   text-align: center;
+}
+ul {
+  padding: 0;
 }
 
 .section-btn {

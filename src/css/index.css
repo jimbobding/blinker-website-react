@@ -1,4 +1,4 @@
-/* :root {
+:root {
   --clr-primary-400: 263 55% 52%;
   --clr-secondary-400: 217 19% 35%;
   --clr-secondary-500: 219 29% 14%;
@@ -41,6 +41,7 @@ dd {
 ul[role="list"],
 ol[role="list"] {
   list-style: none;
+  padding: 0;
 }
 
 /* Set core root defaults */
@@ -91,9 +92,7 @@ select {
   }
 }
 
-body {
-}
-*/ .container {
+.container {
   display: grid;
   place-content: center;
   min-height: 100vh;
@@ -153,10 +152,12 @@ h3 {
   margin-inline: auto;
 }
 
-.index-picture-element {
+/* .index-picture-element {
   padding: 2rem;
   border-radius: 0.5rem;
   height: 50%;
+  max-height: 50%;
+  max-width: 100%;
   width: auto;
 }
 
@@ -165,12 +166,29 @@ h3 {
   height: 70vh;
   border-radius: 0.5rem;
   filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
-  object-fit: cover;
+  object-fit: contain;
+} */
+
+.index-picture-element {
+  padding: 2rem;
+  border-radius: 0.5rem;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.index-picture-element img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
 }
 
 .index-picture-element:first-child img {
   width: 100%;
   height: 90vh;
+  object-fit: contain;
 }
 
 .grid-col-span2 {

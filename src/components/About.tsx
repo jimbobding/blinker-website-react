@@ -29,7 +29,11 @@ const About = () => {
           />
         </div>
         <div className="about-element">
-          <img src="images/cocktail-zest.jpg" alt="" className="blinker-img" />
+          <img
+            src="images/blinker-sign-cocktail.jpg"
+            alt=""
+            className="blinker-img"
+          />
         </div>
       </div>
     </>

@@ -1,4 +1,4 @@
-.opening-hours-grid {
+/* .opening-hours-grid {
   display: grid;
   gap: 2rem;
   grid-template-columns: 1fr 1fr;
@@ -34,4 +34,4 @@
   border-radius: 0.5rem;
   filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
   object-fit: cover;
-}
+} */
