@@ -16,7 +16,7 @@ const Index = () => {
           <img src="images/tin-drink.jpeg" alt="" />
         </div>
         <div className="index-picture-element grid-col-span2">
-          <img src="images/martini-toastie.jpg" alt="" />
+          <img src="images/cocktail-zest.jpg " alt="" />
         </div>
       </div>
     </div>
