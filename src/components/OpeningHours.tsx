@@ -1,37 +1,6 @@
 const OpeningHours = () => {
   return (
     <>
-      {/* <table>
-        <thead></thead>
-        <tbody>
-          <tr>
-            <td>Monday -Wednesday</td>
-            <td>3 PM</td>
-            <td>11 PM</td>
-          </tr>
-
-          <tr>
-            <td>Thursday</td>
-            <td>3 PM</td>
-            <td>12 AM</td>
-          </tr>
-          <tr>
-            <td>Friday</td>
-            <td>2 PM</td>
-            <td>12:30 AM</td>
-          </tr>
-          <tr>
-            <td>Saturday</td>
-            <td>12:00 PM</td>
-            <td>12:30 AM</td>
-          </tr>
-          <tr>
-            <td>Sunday</td>
-            <td>2 PM</td>
-            <td>10 PM</td>
-          </tr>
-        </tbody>
-      </table> */}
       <div className="opening-hours-container">
         <p>
           <strong>Monday - Wednesday:</strong>
