@@ -1,7 +1,7 @@
 const Merch = () => {
   return (
     <>
-      <div className="merch-grid">
+      <div className="merch-grid" id="merch">
         <div className="merch-element grid-col-span4">
           <h2>Merch</h2>
           <hr />

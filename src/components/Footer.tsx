@@ -19,7 +19,9 @@ const Footer = () => {
         </div>
         <div className="footer-element">
           <Contact />
+          <hr />
         </div>
+
         <div className="footer-element">
           <Map />
         </div>

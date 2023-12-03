@@ -1,7 +1,7 @@
 const BookingForm = () => {
   return (
     <div>
-      <div className="booking-form-grid">
+      <div className="booking-form-grid" id="contact">
         <div className="booking-form-element">
           {" "}
           <div className="booking-form">

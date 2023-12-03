@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <>
-      <div className="about-container">
+      <div className="about-container" id="about">
         <img
           src="images/blinker-bar.jpg"
           alt="Picture of Blinker Bar"

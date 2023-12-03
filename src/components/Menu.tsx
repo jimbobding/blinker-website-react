@@ -1,6 +1,6 @@
 const Menu = () => {
   return (
-    <div className="menu-grid">
+    <div className="menu-grid" id="menu">
       <div className="menu-grid-element">
         {" "}
         <h2 className="seating-text-header">

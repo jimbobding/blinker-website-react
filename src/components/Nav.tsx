@@ -1,16 +1,13 @@
 import { useState } from "react";
 
+import { Link as ScrollLink } from "react-scroll";
+
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <nav>
       <div className="nav-container">
-        <img
-          src="images/blinker-raspberry-black.png"
-          alt=""
-          className="nav-img"
-        />
         <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
           {" "}
           <span></span>
@@ -19,21 +16,53 @@ const Navbar = () => {
         </div>
         <ul className={menuOpen ? "open" : ""}>
           <li className="nav-li">
-            <a href="/about">About</a>
+            <ScrollLink
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              onClick={() => setMenuOpen(false)}
+            >
+              About
+            </ScrollLink>
           </li>
 
           <li className="nav-li">
-            <a href="/contact">Contact</a>
+            <ScrollLink
+              to="menu"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              onClick={() => setMenuOpen(false)}
+            >
+              Menu
+            </ScrollLink>
           </li>
-
           <li className="nav-li">
-            <a href="/menu">Menu</a>
+            <ScrollLink
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              onClick={() => setMenuOpen(false)}
+            >
+              Contact
+            </ScrollLink>
           </li>
           <li className="nav-li">
-            <a href="/merch">Merch</a>
-          </li>
-          <li className="nav-li">
-            <a href="/opening">Opening</a>
+            <ScrollLink
+              to="merch"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              onClick={() => setMenuOpen(false)}
+            >
+              Merch
+            </ScrollLink>
           </li>
         </ul>
       </div>
