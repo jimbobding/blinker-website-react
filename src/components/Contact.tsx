@@ -3,6 +3,7 @@ const Contact = () => {
     <>
       <div className="contact-container">
         <h2>Contact Us</h2>
+        {/* <hr /> */}
         <hr />
         <p>0161 - 236 - 8225</p>
         <p>hello@blinkerbar.co.uk</p>
