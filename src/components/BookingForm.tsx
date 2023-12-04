@@ -78,18 +78,17 @@ const BookingForm = () => {
         </div>
         <div className="booking-form-element">
           {" "}
-          <h2 className="seating-text-header">
+          <h2 className="section-header">
             WE OPERATE AS A WALK IN VENUE
             <hr />
           </h2>{" "}
           <div className="text-center">
             <a href="" className="contact-logo">
               <img
-                src="images/blinker-coup-black.png"
-                alt="Blinker Glass"
+                src="images/blinker-rockssign-black.png"
+                alt="Blinker Orange Slice"
                 width="auto"
-                height="40"
-                className="seating-text-img"
+                className="section-img"
               />
             </a>
           </div>
@@ -98,17 +97,6 @@ const BookingForm = () => {
             people a comfortably and promptly as we can. We can also accommodate
             larger groups so for bookings of 6 or more please get in touch.
           </p>
-          <div className="text-center">
-            <a href="" className="contact-logo">
-              <img
-                src="images/blinker-slice-black.png"
-                alt="Blinker Orange Slice"
-                width="auto"
-                height="40"
-                className="seating-text-img"
-              />
-            </a>
-          </div>
         </div>
       </div>
     </div>

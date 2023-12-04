@@ -3,22 +3,32 @@ const Menu = () => {
     <div className="menu-grid" id="menu">
       <div className="menu-grid-element">
         {" "}
-        <h2 className="seating-text-header">
+        <h2 className="section-header">
           Menu
           <hr />
         </h2>{" "}
         <div className="text-center">
           <a href="" className="contact-logo">
-            <img
+            {/* <img
               src="images/blinker-raspberry.png"
               alt="Raspberry"
               width="auto"
               height="40"
-              className="seating-text-img"
-            />
+              className="section-img"
+            /> */}{" "}
+            <a href="" className="contact-logo">
+              {" "}
+              <img
+                src="images/blinker-raspberry-black.png"
+                alt="Blinker Orange Slice"
+                width="auto"
+                height="40"
+                className="section-img"
+              />
+            </a>
           </a>
         </div>
-        <p className="section-text">
+        <p className="booking-form-element section-text">
           {" "}
           Influenced by British seasonality our menu is monthly changing and
           always focuses around four
@@ -28,17 +38,7 @@ const Menu = () => {
           With a dedicated Martini and Old Fashioned section in addition, we
           truly have something for everyone.
         </p>
-        <div className="text-center">
-          <a href="" className="contact-logo">
-            <img
-              src="images/blinker-raspberry-black.png"
-              alt="Blinker Orange Slice"
-              width="auto"
-              height="40"
-              className="seating-text-img"
-            />
-          </a>
-        </div>
+        <div className="text-center"></div>
       </div>
       <div className="menu-grid-element">
         <div className="image-container">

@@ -3,7 +3,7 @@ const Merch = () => {
     <>
       <div className="merch-grid" id="merch">
         <div className="merch-element grid-col-span4">
-          <h2>Merch</h2>
+          <h2 className="section-header">Merch</h2>
           <hr />
         </div>
         <div className="merch-element">

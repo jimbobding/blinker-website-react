@@ -14,8 +14,18 @@ p {
   font-size: 1rem;
 }
 
+.section-header {
+  margin: 1rem 0rem 1rem 0rem;
+}
+
 .section-text {
   padding: 2rem 6rem 2rem 6rem;
+  line-height: 2.5rem;
+}
+
+.section-img {
+  margin-top: 1rem;
+  height: 4rem;
 }
 
 .text-center {
