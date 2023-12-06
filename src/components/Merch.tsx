@@ -25,7 +25,12 @@ const Merch = () => {
           </p>
         </div>
         <div className="merch-element">
-          <a href="" target="_blank" type="button" className="section-btn">
+          <a
+            href="https://blinkerbar.bigcartel.com/"
+            target="_blank"
+            type="button"
+            className="section-btn"
+          >
             Merch
           </a>
         </div>

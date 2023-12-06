@@ -64,6 +64,18 @@ const Navbar = () => {
               Merch
             </ScrollLink>
           </li>
+          <li className="nav-li">
+            <ScrollLink
+              to="opening"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              onClick={() => setMenuOpen(false)}
+            >
+              Opening
+            </ScrollLink>
+          </li>
         </ul>
       </div>
     </nav>

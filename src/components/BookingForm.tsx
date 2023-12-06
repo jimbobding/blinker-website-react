@@ -1,9 +1,23 @@
-const BookingForm = () => {
+import React, { SyntheticEvent } from "react";
+
+const BookingForm: React.FC = () => {
+  const handleSubmit = (event: SyntheticEvent) => {
+    // Prevent the default form submission behavior
+    event.preventDefault();
+
+    // Your form submission logic here (e.g., sending data to the server)
+
+    // Reset the form fields
+    const form = document.getElementById("my-form") as HTMLFormElement | null;
+    if (form) {
+      form.reset();
+    }
+  };
+
   return (
     <div>
       <div className="booking-form-grid" id="contact">
         <div className="booking-form-element">
-          {" "}
           <div className="booking-form">
             <div className="text-center bottom-logo">
               <a href="" className=" contact-logo">
@@ -20,8 +34,9 @@ const BookingForm = () => {
               action="https://formspree.io/f/xjvldjqd"
               method="POST"
               id="my-form"
+              onSubmit={handleSubmit}
             >
-              <div className="form-group ">
+              <div className="form-group">
                 <input
                   type="text"
                   id="name"
@@ -31,7 +46,7 @@ const BookingForm = () => {
                 />
               </div>
 
-              <div className="form-group ">
+              <div className="form-group">
                 <input
                   type="tel"
                   id="phone-number"
@@ -41,7 +56,7 @@ const BookingForm = () => {
                 />
               </div>
 
-              <div className="form-group ">
+              <div className="form-group">
                 <input
                   type="email"
                   id="email"
@@ -51,7 +66,7 @@ const BookingForm = () => {
                 />
               </div>
 
-              <div className="form-group ">
+              <div className="form-group">
                 <label>Message</label>
                 <textarea
                   id="message"
@@ -77,11 +92,10 @@ const BookingForm = () => {
           </div>
         </div>
         <div className="booking-form-element">
-          {" "}
           <h2 className="section-header">
-            WE OPERATE AS A WALK IN VENUE
+            Bookings
             <hr />
-          </h2>{" "}
+          </h2>
           <div className="text-center">
             <a href="" className="contact-logo">
               <img
@@ -93,9 +107,10 @@ const BookingForm = () => {
             </a>
           </div>
           <p className="section-text">
-            Blinker operates as a walk in venue. We will do our best to seat
-            people a comfortably and promptly as we can. We can also accommodate
-            larger groups so for bookings of 6 or more please get in touch.
+            Blinker operates as a walk-in venue. We will do our best to seat
+            people as comfortably and promptly as we can. We can also
+            accommodate larger groups, so for bookings of 6 or more, please get
+            in touch.
           </p>
         </div>
       </div>
