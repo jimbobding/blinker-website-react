@@ -15,11 +15,15 @@
     "prepush": "npm run lint:style && tsc && npm run test"
   },
   "dependencies": {
+    "@types/react-scroll": "^1.8.10",
+    "aos": "^2.3.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-scroll": "^1.9.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.1.4",
+    "@types/aos": "^3.0.7",
     "@types/jest": "^29.5.8",
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
@@ -28,7 +32,7 @@
     "@typescript-eslint/eslint-plugin": "^6.10.0",
     "@typescript-eslint/parser": "^6.10.0",
     "@vitejs/plugin-react": "^4.2.0",
-    "eslint": "^8.53.0",
+    "eslint": "^8.54.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-jsx-a11y": "^6.8.0",
     "eslint-plugin-prettier": "^5.0.1",
@@ -46,6 +50,11 @@
       "pre-commit": "lint-staged"
     }
   },
+  "[html]": {
+    "esbenp.prettier-vscode": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+  },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx}": [
       "eslint --fix",
@@ -56,6 +65,5 @@
     "setupFilesAfterEnv": [
       "@testing-library/jest-dom/extend-expect"
     ]
-
   }
 }

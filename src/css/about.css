@@ -1,0 +1,57 @@
+.about-bar-pic {
+  display: block;
+  background-color: rgba(76, 175, 80, 0.1);
+  background-size: cover;
+  background-size: 100%;
+  height: auto;
+  border: 1px solid black !important;
+  width: 100vw;
+}
+
+.about-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+  color: rgb(20, 20, 189);
+  padding-block: 2rem;
+  width: min(95%, 70rem);
+  margin-inline: auto;
+  padding: 2rem;
+  justify-content: center;
+  text-align: center;
+
+  color: black;
+  width: 100%;
+}
+
+@media screen and (max-width: 667px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.aabout-element:first-child {
+  background-color: #005c46;
+}
+
+.about-element {
+  padding: 2rem;
+  border-radius: 0.5rem;
+  height: 50%;
+  width: auto;
+  justify-content: center;
+}
+
+.about-element .blinker-img {
+  width: 100%;
+  height: 70vh;
+  border-radius: 0.5rem;
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+  object-fit: cover;
+}
+
+.nav-img {
+  width: auto;
+  height: 3rem;
+  margin: 0.5rem;
+}

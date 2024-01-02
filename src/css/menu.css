@@ -1,0 +1,75 @@
+.menu-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+  padding-block: 2rem;
+  width: min(95%, 70rem);
+  margin-inline: auto;
+  padding: 2rem 10rem 2rem 10rem;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  background-color: 003b73;
+}
+.menu-grid-element {
+  display: grid;
+}
+
+@media screen and (max-width: 1024px) {
+  .menu-grid {
+    padding: 2rem 4rem 2rem 4rem;
+    grid-template-columns: 1fr;
+  }
+  .menu-grid-elemnt {
+    width: 100%;
+  }
+  .image-container img {
+    width: 100%;
+    height: auto;
+    max-width: none;
+  }
+
+  .menu-picture-element {
+    padding: orem;
+  }
+}
+
+.menu-picture-element {
+  border-radius: 0.5rem;
+  height: 50%;
+  width: auto;
+}
+
+.menu-picture-element img {
+  width: 100%;
+  height: 70vh;
+  border-radius: 0.5rem;
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+  object-fit: contain;
+}
+
+.image-container {
+  position: relative;
+  max-width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white; /* Set the text color */
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+
+  padding: 3rem;
+  border-radius: 0.5rem;
+}
+
+.overlay p {
+  margin: 0;
+}

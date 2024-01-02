@@ -1,0 +1,113 @@
+.booking-form-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+  padding-block: 2rem;
+  width: min(95%, 70rem);
+  margin-inline: auto;
+  padding: 2rem 10rem 2rem 10rem;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 850px) {
+  .booking-form-grid {
+    padding: 2rem 2rem 2rem 2rem;
+    grid-template-columns: 1fr;
+  }
+
+  .booking-form-element:first-child {
+    order: 2;
+  }
+  .booking-form-element:last-child {
+    order: 1;
+  }
+  .section-text {
+    padding: 0;
+  }
+}
+
+.booking-form {
+  max-width: 46.875rem;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+  background-color: #005c46;
+  border-radius: 0.5rem;
+  margin-bottom: 1.3rem;
+}
+
+.seating-text-header,
+.seating-text {
+  padding: 2rem 6rem 2rem 6rem;
+}
+
+.contact-logo {
+  padding: 10px;
+}
+
+.bottom-logo {
+  margin-top: 15px;
+}
+
+.form-container {
+  width: 90%;
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 10px 10px 240px white;
+  background-color: #005c46;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.199);
+  margin-top: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 20px;
+  font-size: 24px;
+  border-radius: 8px;
+  font-family: "Montserrat";
+  color: #005c46;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s ease background-color;
+}
+
+button[type="submit"]:hover {
+  background-color: black;
+}
+
+.footer-section {
+  background-color: black;
+}
+
+.contact-input {
+  background-color: white;
+  border-radius: 0.5rem;
+}
+
+.btn {
+  margin: 10px;
+}
