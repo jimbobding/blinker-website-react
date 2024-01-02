@@ -22,9 +22,9 @@
 
 .image-container {
   position: relative;
-  width: 90%; /* Adjust the percentage based on your design */
-  max-width: 500px; /* Optional: Set a maximum width for larger screens */
-  margin: 0 auto; /* Center the image */
+  width: 90%; 
+  /* max-width: 500px;
+  margin: 0 auto;
   overflow: hidden;
 }
 
@@ -34,4 +34,4 @@
   border-radius: 0.5rem;
   filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
   object-fit: cover;
-} */
+} 

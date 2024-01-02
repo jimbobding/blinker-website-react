@@ -93,7 +93,7 @@ const BookingForm: React.FC = () => {
         </div>
         <div className="booking-form-element">
           <h2 className="section-header">
-            Bookings
+            WE OPERATE AS A WALK IN VENUE
             <hr />
           </h2>
           <div className="text-center">
@@ -107,10 +107,8 @@ const BookingForm: React.FC = () => {
             </a>
           </div>
           <p className="section-text">
-            Blinker operates as a walk-in venue. We will do our best to seat
-            people as comfortably and promptly as we can. We can also
-            accommodate larger groups, so for bookings of 6 or more, please get
-            in touch.
+            We do not take bookings. However for full venue hire or any other
+            enquiries please contact us via the form below.
           </p>
         </div>
       </div>

@@ -16,12 +16,12 @@ const Merch = () => {
           <img src="images/dom-hat-merch.jpg" alt="" />
         </div>
         <div className="merch-element grid-col-span4">
+          <h3>Take Blinker home with you </h3>
           <p className="section-text">
             {" "}
-            If you like the blinker style we are now selling a range of blinker
-            merch. So if you want hoodies, tee's, jumpers, beanies and caps or
-            even a blinker apron to make make your own old fshioneds at home in.
-            Then check out our merch here{" "}
+            You asked, we delivered: quality clothes and accessories in the
+            Blinker colours and logo. Feel like part of the team with your own
+            Blinker apron, t-shirt or hoodie.
           </p>
         </div>
         <div className="merch-element">

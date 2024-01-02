@@ -30,13 +30,17 @@ const Menu = () => {
         </div>
         <p className="booking-form-element section-text">
           {" "}
-          Influenced by British seasonality our menu is monthly changing and
+          {/* Influenced by British seasonality our menu is monthly changing and
           always focuses around four
           <br />
           in-season flavours.
           <br />
           With a dedicated Martini and Old Fashioned section in addition, we
-          truly have something for everyone.
+          truly have something for everyone. */}
+          Our menu is influenced by British seasonality with a monthly changing
+          menu focused around four in-season ingredients. In dedicated Martini
+          and Old Fashioned sections, you’ll find variations on timeless
+          classics.
         </p>
         <div className="text-center"></div>
       </div>
