@@ -4,7 +4,7 @@ const Index = () => {
       <div className="index-picture-grid">
         <div className="index-picture-element grid-col-span4">
           {" "}
-          <img src="images/dan.jpg" alt="" />
+          <img src="images/dan.jpg" alt="Picture of Dan" />
         </div>
         <div className="index-picture-element grid-col-span4 ">
           <p className="section-text text-center">

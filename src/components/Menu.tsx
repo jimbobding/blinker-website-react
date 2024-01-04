@@ -9,13 +9,6 @@ const Menu = () => {
         </h2>{" "}
         <div className="text-center">
           <a href="" className="contact-logo">
-            {/* <img
-              src="images/blinker-raspberry.png"
-              alt="Raspberry"
-              width="auto"
-              height="40"
-              className="section-img"
-            /> */}{" "}
             <a href="" className="contact-logo">
               {" "}
               <img
@@ -30,13 +23,6 @@ const Menu = () => {
         </div>
         <p className="booking-form-element section-text">
           {" "}
-          {/* Influenced by British seasonality our menu is monthly changing and
-          always focuses around four
-          <br />
-          in-season flavours.
-          <br />
-          With a dedicated Martini and Old Fashioned section in addition, we
-          truly have something for everyone. */}
           Our menu is influenced by British seasonality with a monthly changing
           menu focused around four in-season ingredients. In dedicated Martini
           and Old Fashioned sections, you’ll find variations on timeless
@@ -53,7 +39,7 @@ const Menu = () => {
             <h2>Menu</h2>
 
             <a
-              href="menues/19.12.23_Blinker_Menu_January24 (1).pdf"
+              href="menus/19.12.23_Blinker_Menu_January24 (1).pdf"
               target="_blank"
               type="button"
               className="section-btn "
