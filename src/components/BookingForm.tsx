@@ -93,9 +93,13 @@ const BookingForm: React.FC = () => {
         </div>
         <div className="booking-form-element">
           <h2 className="section-header">
-            WE OPERATE AS A WALK IN VENUE
+            WE OPERATE AS A WALK IN VENUE ONLY
             <hr />
           </h2>
+          <h3 className="section-header">
+            WE DO NOT TAKE BOOKINGS
+            <hr />
+          </h3>
           <div className="text-center">
             <a href="" className="contact-logo">
               <img
