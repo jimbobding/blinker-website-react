@@ -3,7 +3,11 @@ const OpeningHours = () => {
     <>
       <div className="opening-hours-container" id="opening">
         <p>
-          <strong>Monday - Wednesday:</strong>
+          <strong>Monday:</strong>
+        </p>
+        <p>Closed</p>
+        <p>
+          <strong>Tuesday - Wednesday:</strong>
         </p>
         <p>3 PM - 11 PM</p>
 
@@ -11,7 +15,6 @@ const OpeningHours = () => {
           <strong>Thursday:</strong>
         </p>
         <p>3 PM - 12 AM</p>
-
         <p>
           <strong>Friday:</strong>
         </p>
