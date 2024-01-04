@@ -1,17 +1,22 @@
-import React, { SyntheticEvent } from "react";
+import React, { useState, SyntheticEvent } from "react";
+import { useForm, ValidationError } from "@formspree/react";
 
 const BookingForm: React.FC = () => {
-  const handleSubmit = (event: SyntheticEvent) => {
-    // Prevent the default form submission behavior
+  // Define state variables for form fields
+  const [name, setName] = useState("");
+  const [phoneNumber, setPhoneNumber] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [state, handleSubmit] = useForm("xjvldjqd");
+
+  const handleFormSubmit = (event: SyntheticEvent) => {
+    // Reset form fields
     event.preventDefault();
 
-    // Your form submission logic here (e.g., sending data to the server)
-
-    // Reset the form fields
-    const form = document.getElementById("my-form") as HTMLFormElement | null;
-    if (form) {
-      form.reset();
-    }
+    setName("");
+    setPhoneNumber("");
+    setEmail("");
+    setMessage("");
   };
 
   return (
@@ -34,7 +39,10 @@ const BookingForm: React.FC = () => {
               action="https://formspree.io/f/xjvldjqd"
               method="POST"
               id="my-form"
-              onSubmit={handleSubmit}
+              onSubmit={(e) => {
+                handleSubmit(e);
+                handleFormSubmit(e);
+              }}
             >
               <div className="form-group">
                 <input
@@ -43,6 +51,8 @@ const BookingForm: React.FC = () => {
                   name="name"
                   className="contact-input"
                   placeholder="NAME"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
                 />
               </div>
 
@@ -53,6 +63,8 @@ const BookingForm: React.FC = () => {
                   name="phone-number"
                   className="contact-input"
                   placeholder="PHONE-NUMBER"
+                  value={phoneNumber}
+                  onChange={(e) => setPhoneNumber(e.target.value)}
                 />
               </div>
 
@@ -63,6 +75,8 @@ const BookingForm: React.FC = () => {
                   name="email"
                   className="contact-input"
                   placeholder="EMAIL"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                 />
               </div>
 
@@ -72,6 +86,8 @@ const BookingForm: React.FC = () => {
                   id="message"
                   name="message"
                   className="contact-input"
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
                 ></textarea>
               </div>
               <button id="btn" type="submit">
