@@ -1,8 +1,7 @@
 import React, { useState, SyntheticEvent } from "react";
-import { useForm, ValidationError } from "@formspree/react";
+import { useForm } from "@formspree/react";
 
 const BookingForm: React.FC = () => {
-  // Define state variables for form fields
   const [name, setName] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
   const [email, setEmail] = useState("");
@@ -18,7 +17,7 @@ const BookingForm: React.FC = () => {
     setEmail("");
     setMessage("");
   };
-
+  console.log(state);
   return (
     <div>
       <div className="booking-form-grid" id="contact">
@@ -127,8 +126,8 @@ const BookingForm: React.FC = () => {
             </a>
           </div>
           <p className="section-text">
-            We do not take bookings. However for full venue hire or any other
-            enquiries please contact us via the form below.
+            We do not take bookings. However, for full venue hire or any other
+            inquiries, please contact us via the form below.
           </p>
         </div>
       </div>
