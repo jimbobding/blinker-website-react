@@ -26,7 +26,7 @@ const Footer = () => {
           <Map />
         </div>
       </div>
-      <div className="page-footer">Blinker 2024</div>
+      <div className="page-footer">Blinker 2024!</div>
     </>
   );
 };
