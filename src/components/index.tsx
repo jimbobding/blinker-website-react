@@ -15,34 +15,34 @@ const Index = () => {
         </div>
         <div
           className="index-picture-element grid-col-span2"
-          data-aos="fade-right"
-          data-aos-easing="lease-in-out"
-          data-aos-duration="1000"
+          // data-aos="fade-right"
+          // data-aos-easing="lease-in-out"
+          // data-aos-duration="1000"
         >
           <img src="images/irish-coffee.jpeg" alt="" />
         </div>
 
         <div
           className="index-picture-element grid-col-span2 "
-          data-aos="fade-left"
-          data-aos-easing="lease-in-out"
-          data-aos-duration="1000"
+          // data-aos="fade-left"
+          // data-aos-easing="lease-in-out"
+          // data-aos-duration="1000"
         >
           <img src="images/drink-table.jpeg" alt="" />
         </div>
         <div
           className="index-picture-element grid-col-span2"
-          data-aos="fade-right"
-          data-aos-easing="lease-in-out"
-          data-aos-duration="1000"
+          // data-aos="fade-right"
+          // data-aos-easing="lease-in-out"
+          // data-aos-duration="1000"
         >
           <img src="images/tin-drink.jpeg" alt="" />
         </div>
         <div
           className="index-picture-element grid-col-span2"
-          data-aos="fade-left"
-          data-aos-easing="lease-in-out"
-          data-aos-duration="1000"
+          // data-aos="fade-left"
+          // data-aos-easing="lease-in-out"
+          // data-aos-duration="1000"
         >
           <img src="images/cocktail-zest.jpg " alt="" />
         </div>
