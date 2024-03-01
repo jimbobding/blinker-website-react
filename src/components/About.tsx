@@ -10,11 +10,6 @@ const About = () => {
       </div>
       <div className="about-grid">
         <div className="about-element">
-          {/* <img
-            src="images/blinker-name.png"
-            alt="Picture of Blinker Bar"
-            className="nav-img"
-          /> */}
           <h2 className="section-header">Blinker</h2>
           <h3> Our name comes from a forgotten classic cocktail</h3>
           <hr />
@@ -31,11 +26,6 @@ const About = () => {
             This has inspired our seasonal <br />
             approach to perfect serves.
           </p>
-          {/* <img
-            src="images/blinker-name.png"
-            alt="Picture of Blinker Bar"
-            className="nav-img"
-          /> */}
         </div>
         <div className="about-element">
           <img
