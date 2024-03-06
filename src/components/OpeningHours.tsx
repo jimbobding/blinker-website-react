@@ -23,7 +23,7 @@ const OpeningHours = () => {
         <p>
           <strong>Saturday:</strong>
         </p>
-        <p>12:00 PM - 12:30 AM</p>
+        <p>2 PM - 12:30 AM</p>
 
         <p>
           <strong>Sunday:</strong>
