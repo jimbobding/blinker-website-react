@@ -13,6 +13,7 @@ const Index = () => {
             Locallly sourced. <br /> Artfully mixed. <br /> Served with care.
           </p>
         </div>
+
         <div
           className="index-picture-element grid-col-span2"
           // data-aos="fade-right"

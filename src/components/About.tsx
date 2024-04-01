@@ -19,6 +19,7 @@ const About = () => {
             width="auto"
             className="section-img"
           />
+
           <p className="blinker-text section-text ">
             A three ingredient cocktail <br />
             blending rye, grapefruit and <br />
@@ -33,6 +34,17 @@ const About = () => {
             alt=""
             className="blinker-img"
           />
+        </div>
+        <div className="top50-container">
+          <div className="top50">
+            <a
+              href="https://www.top50cocktailbars.com"
+              title="Featured on Top50CocktailBars.com"
+              target="_blank"
+            >
+              <img src="images/top50cb_sponsor_black_horizontal.jpg" alt="" />
+            </a>
+          </div>
         </div>
       </div>
     </>

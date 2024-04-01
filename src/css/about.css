@@ -24,12 +24,6 @@
   width: 100%;
 }
 
-@media screen and (max-width: 667px) {
-  .about-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
 .aabout-element:first-child {
   background-color: #005c46;
 }
@@ -54,4 +48,42 @@
   width: auto;
   height: 3rem;
   margin: 0.5rem;
+}
+
+.top50-container {
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  grid-column: span 2;
+}
+
+.top50 img {
+  max-width: 50%;
+  max-height: 300px;
+  border-radius: 0.5rem;
+}
+
+.top50 img:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 667px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .top50-container {
+    height: auto;
+    grid-column: auto;
+    display: block;
+    text-align: center;
+  }
+
+  .top50 img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+  }
 }

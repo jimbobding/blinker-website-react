@@ -171,3 +171,20 @@ h3 {
     filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
   }
 }
+
+.top50-container {
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  height: 20vh; /* Adjust as needed */
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+}
+
+.top50 img {
+  max-width: 50%; /* Ensure the image doesn't exceed the container width */
+  max-height: 100%; /* Ensure the image doesn't exceed the container height */
+  border-radius: 0.5rem;
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+}
