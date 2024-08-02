@@ -39,7 +39,7 @@ const Menu = () => {
             <h2>Menu</h2>
 
             <a
-              href="menus/24.6.24_Blinker_Menu_July24.pdf"
+              href="menus/23.7.24_Blinker_Menu_August24.pdf"
               target="_blank"
               type="button"
               className="section-btn "
