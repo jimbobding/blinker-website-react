@@ -6,6 +6,7 @@ import "./css/menu.css";
 import "./css/bookingForm.css";
 import "./css/merch.css";
 import "./css/footer.css";
+import "./css/opening-hours.css";
 
 import Nav from "./components/Nav";
 import About from "./components/About";

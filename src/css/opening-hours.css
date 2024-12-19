@@ -9,3 +9,24 @@ td {
   text-align: left;
   text-align: center;
 }
+
+.image-container {
+  display: flex;
+  justify-content: center; /* Centers the image horizontally */
+  align-items: center; /* Centers the image vertically (if height is set) */
+  padding: 16px; /* Optional: Adds some spacing around the image */
+}
+
+.image-container img {
+  max-width: 50% !important; /* Forcefully limits the image size */
+  height: auto !important; /* Ensures aspect ratio is maintained */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 4px solid white;
+}
+
+@media screen and (max-width: 1024px) {
+  .image-container img {
+    max-width: 80% !important;
+  }
+}
