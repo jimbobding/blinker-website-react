@@ -30,7 +30,7 @@ const OpeningHours = () => {
         </p>
         <p>2 PM - 10 PM</p>
       </div>
-      <div className="image-container">
+{/*       <div className="image-container">
         <img
           src="images/WhatsApp Image 2024-11-30 at 19.21.53.jpeg"
           alt="Opening Hours Visual"
@@ -41,7 +41,7 @@ const OpeningHours = () => {
             boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
           }}
         />
-      </div>
+      </div> */}
     </>
   );
 };
